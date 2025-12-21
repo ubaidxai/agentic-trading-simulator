@@ -7,4 +7,4 @@ mcp servers:
 4. brave search
 5. financial data
 
-a resource to read information about traders account and their investment strategy
+a resource to read information about traders account and their investment strategy.
