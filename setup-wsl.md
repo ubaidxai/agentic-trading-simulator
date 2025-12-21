@@ -21,29 +21,18 @@ It's important to appreciate the difference between your Windows home directory,
 3. After that completes, you need to type `exit` to leave WSL and return to the Powershell and then type `ubuntu` to return to Linux, in order that changes to PATH are picked up.
 4. Now type `pwd` to check you're in your Linux home directory. If in doubt, `cd ~` and `ls` to check.
 5. Now create a projects directory with `mkdir projects` then `cd projects` to go into it.
-6. And, from within your new projects directory, clone the repo with `git clone https://github.com/ubaidxai/setups-and-installations.git`
-
-
-7. Now go into your new agents directory, your Project Root Directory, with `cd agents`
+6. And, from within your new projects directory, clone the repo with `git clone https://github.com/ubaidxai/agentic-trading-simulator.git`
+7. Now go into your Project Root Directory, with `cd agentic-trading-simulator`
 8. And now run the all-powerful `uv sync`
 
-At this point, I experienced an unpleasant memory error. I believe it's related to my setup, and you shouldn't hit it. But if you do, please let me know - I have a fix!
 
-
-
----
-
-
-### Part 3: Configure Cursor running in your PC environment
-
-1. Open Cursor, the usual way, on your PC
-2. Bring up the Extensions panel (View menu >> Extensions or Ctrl+Shift+X), search for WSL, see WSL by Anysphere (the makers of Cursor) and Install it
-3. Now press Ctrl+Shift+P and search for Remote-WSL: New Window and select it to Open a new window configured for WSL
-4. Select Open Project (then get a coffee), and navigate to your new "agents" project root directory in Linux, and then Open or Select Folder
-5. Bring up the Extensions panel again (Ctrl+Shift+X) and install these Extensions in your WSL if not already installed: Python (ms-python), and Jupyter (microsoft), clicking the "Install in WSL-Ubuntu" button
+### Part 3: Configure IDE running in your PC environment
+1. Open IDE, the usual way, on your PC
+2. Download the Extension: `WSL`
+3. Now press Ctrl+Shift+P and search for WSL: New Window.
+4. In the new WSL IDE window, Select the project folder to Open it.
+5. In the WSL IDE window, download the Extenions: `Python (ms-python)`, `Jupyter (microsoft)`, and all the necessary extensions by clicking the "Install in WSL-Ubuntu" button.
 
 ### And you should be ready to roll!
 
 You'll need to create a new ".env" file in the agents folder, and copy across your .env from your other project. And you'll need to click "Select Kernel" and "Choose python environment..".
-
-Enjoy MCP!
