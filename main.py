@@ -1,5 +1,5 @@
 def main():
-    print("Hello from agentic-trading-simulator!")
+    print("Hello! From the agentic trading simulator.")
 
 
 if __name__ == "__main__":

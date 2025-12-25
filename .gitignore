@@ -14,3 +14,8 @@ wheels/
 
 # Environment variable files
 .env
+
+# DB and Memory
+*.sqlite3
+*.db
+*.mem
