@@ -1,6 +1,7 @@
 # 📈Agentic Trading Simulator
+<!--
 ![Orchestration Diagram](assets/orchestration_diagram.png)
-
+-->
 Agentic Trading Simulator is a multi-agent AI system that simulates equity trading with autonomous traders and researcher agents. 
 
 ## 🚀 Key Features:
@@ -84,7 +85,12 @@ agentic-trading-simulator/
 ```
 
 ## ⚙️ Setup Instructions
-1. Clone the repository
+0. Setup WSL (For Windows only):
+
+Follow the instructions in <a href="setups.md">setups.md</a> to setup WSL (Windows Subsystem for Linux).
+Skip this step if working with Linux or MAC.
+
+2. Clone the repository
 ```
 > git clone https://github.com/Ubadi-The-Data-Scientist/agentic-trading-simulator.git
 > cd agentic-trading-simulator
